@@ -13,6 +13,9 @@
 		84F297C51E49B18200CC4881 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F297C31E49B18200CC4881 /* MainMenu.xib */; };
 		84F297D01E49B18200CC4881 /* titlebarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F297CF1E49B18200CC4881 /* titlebarTests.m */; };
 		84F297DB1E49B18200CC4881 /* titlebarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F297DA1E49B18200CC4881 /* titlebarUITests.m */; };
+		84F297EA1E49B19200CC4881 /* MyTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F297E91E49B19200CC4881 /* MyTitleView.m */; };
+		84F297EE1E49B1A800CC4881 /* WC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F297EC1E49B1A800CC4881 /* WC.m */; };
+		84F297EF1E49B1A800CC4881 /* WC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F297ED1E49B1A800CC4881 /* WC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,11 @@
 		84F297D61E49B18200CC4881 /* titlebarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = titlebarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F297DA1E49B18200CC4881 /* titlebarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = titlebarUITests.m; sourceTree = "<group>"; };
 		84F297DC1E49B18200CC4881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F297E81E49B19200CC4881 /* MyTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTitleView.h; sourceTree = "<group>"; };
+		84F297E91E49B19200CC4881 /* MyTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTitleView.m; sourceTree = "<group>"; };
+		84F297EB1E49B1A800CC4881 /* WC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC.h; sourceTree = "<group>"; };
+		84F297EC1E49B1A800CC4881 /* WC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC.m; sourceTree = "<group>"; };
+		84F297ED1E49B1A800CC4881 /* WC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,12 +104,17 @@
 		84F297BA1E49B18200CC4881 /* titlebar */ = {
 			isa = PBXGroup;
 			children = (
+				84F297E81E49B19200CC4881 /* MyTitleView.h */,
+				84F297E91E49B19200CC4881 /* MyTitleView.m */,
 				84F297BB1E49B18200CC4881 /* AppDelegate.h */,
 				84F297BC1E49B18200CC4881 /* AppDelegate.m */,
 				84F297C11E49B18200CC4881 /* Assets.xcassets */,
 				84F297C31E49B18200CC4881 /* MainMenu.xib */,
 				84F297C61E49B18200CC4881 /* Info.plist */,
 				84F297BE1E49B18200CC4881 /* Supporting Files */,
+				84F297EB1E49B1A800CC4881 /* WC.h */,
+				84F297EC1E49B1A800CC4881 /* WC.m */,
+				84F297ED1E49B1A800CC4881 /* WC.xib */,
 			);
 			path = titlebar;
 			sourceTree = "<group>";
@@ -236,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F297C21E49B18200CC4881 /* Assets.xcassets in Resources */,
+				84F297EF1E49B1A800CC4881 /* WC.xib in Resources */,
 				84F297C51E49B18200CC4881 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F297EA1E49B19200CC4881 /* MyTitleView.m in Sources */,
+				84F297EE1E49B1A800CC4881 /* WC.m in Sources */,
 				84F297C01E49B18200CC4881 /* main.m in Sources */,
 				84F297BD1E49B18200CC4881 /* AppDelegate.m in Sources */,
 			);
